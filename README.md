@@ -10,13 +10,14 @@ This project was built following Agile work processes, using sprints and a Trell
 
 ## Screenshots
 
-![Screenshot 1.](/screenshots/1.png "Screenshot.")
+![Screenshot 4.](/screenshots/4.png "Screenshot.")
 
-![Screenshot 2.](/screenshots/2.png "Screenshot.")
+![Screenshot 1.](/screenshots/1.png "Screenshot.")
 
 ![Screenshot 3.](/screenshots/3.png "Screenshot.")
 
-![Screenshot 4.](/screenshots/4.png "Screenshot.")
+
+![Screenshot 2.](/screenshots/2.png "Screenshot.")
 
 
 ## Installation
