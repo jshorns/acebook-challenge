@@ -35,7 +35,7 @@ First, clone this repository. Then:
 
 ***TESTING***
 
-Testing was done in rspec; coverage is over 99%.
+Testing was done in rspec; coverage is 98%.
 
 For a more in-depth view of the coverage report run
 
