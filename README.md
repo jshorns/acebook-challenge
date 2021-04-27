@@ -1,22 +1,29 @@
 # AceBook
 
-REQUIRED INSTRUCTIONS:
+Deployed to heroku and can be viewed [here](https://lizardbook2021.herokuapp.com/).
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+A facebook clone (well, if you ignore the space lizard theme) built in Rails as a group project, according to specifications given by a Makers Coach acting as client. Features include signing up, signing in, making posts, editing posts (within a certain timeframe of posting), deleting posts, commenting on posts, editing and deleting comments, and liking/unliking other users posts.
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+We also set up CI and CD using heroku and Circle CI.
 
-2. The card wall is here: https://trello.com/b/N6ht59Tm/acebook-markzuckerbergisalizard
+This project was built following Agile work processes, using sprints and a Trello board to keep track of specs and user stories.
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+## Screenshots
 
-## Quickstart
+![Screenshot 1.](/screenshots/1.png "Screenshot.")
+
+![Screenshot 2.](/screenshots/2.png "Screenshot.")
+
+![Screenshot 3.](/screenshots/3.png "Screenshot.")
+
+![Screenshot 4.](/screenshots/3.png "Screenshot.")
+
+
+## Installation
 
 First, clone this repository. Then:
 
-```bash
+```zhrc
 > bundle install
 > bin/rails db:create
 > bin/rails db:migrate
@@ -25,17 +32,9 @@ First, clone this repository. Then:
 > bin/rails server # Start the server at localhost:3000
 ```
 
-## Troubleshooting
-
-If you don't have Node.js installed yet, you might run into this error when running rspec:
-```
-ExecJS::RuntimeUnavailable:
-  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
- ```
-That is because Rails will use a Javascript runtime (such as Node) under the hood. The easiest way is to install Node by running `brew install node` -
-and then run `bundle exec rspec` again
-
 ***TESTING***
+
+Testing was done in rspec; coverage is over 99%.
 
 For a more in-depth view of the coverage report run
 
